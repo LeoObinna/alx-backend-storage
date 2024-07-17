@@ -1,2 +1,2 @@
-// find the number of documents in collection
-db.school.count()
+// find in a collection school with attr name equals to Holberton school
+db.school.find({name:"Holberton school"})
